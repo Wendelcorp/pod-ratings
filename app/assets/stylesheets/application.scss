@@ -1,6 +1,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+//
+//
+//
+//
+//  GENERAL
+//
+//
+//
+//
+
 h2 {
   font-weight: 200;
 }
@@ -24,9 +35,29 @@ input[type="text"]:focus {
   color: #E5EDF1;
 }
 
+//
+//
+//
+//
+//  TEXT
+//
+//
+//
+//
+
 .section-header {
   margin-bottom: 40px;
 }
+
+//
+//
+//
+//
+//  HOMEPAGE
+//
+//
+//
+//
 
 .episode-blurb-small {
 
@@ -216,7 +247,15 @@ input[type="text"]:focus {
   font-weight: 400;
 }
 
-// EPISODE RATINGS
+//
+//
+//
+//
+//  EPISODE RATINGS
+//
+//
+//
+//
 
 .user-img {
   width: 70px;
@@ -260,4 +299,34 @@ input[type="text"]:focus {
 .glyphicon.glyphicon-thumbs-down {
     font-size: 35px;
     color:  #E57878;
+}
+
+//
+//
+//
+//
+//  SIGN IN
+//
+//
+//
+//
+
+.sign-up-container {
+  max-width: 1000px;
+  padding-right: 60px;
+  margin: 0 auto;
+}
+.sign-up-notice {
+  height: 450px;
+  padding: 50px 0px 50px 50px;
+
+}
+.sign-up-notice-box {
+  background-color: #D3DFE4;
+  height: 100%;
+  width: 100%;
+}
+.sign-up-form {
+  height: 450px;
+  border: 1px solid #D3DFE4;
 }

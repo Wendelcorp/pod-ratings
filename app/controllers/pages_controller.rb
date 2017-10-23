@@ -3,4 +3,6 @@ class PagesController < ApplicationController
   end
   def episode
   end
+  def signup
+  end
 end
