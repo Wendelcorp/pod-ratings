@@ -1,0 +1,93 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h2 {
+  font-weight: 200;
+}
+
+.section-header {
+  margin-bottom: 40px;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    max-width: 1000px;
+    margin: 20px auto 60px;
+    padding: 20px;
+}
+
+.title-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title-box {
+  padding: 20px;
+}
+
+.title-card {
+  border: 1px solid #D3DFE4;
+  border-radius: 6px;
+  min-height: 250px;
+  max-width: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.feature-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.feature-box {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.feature-card {
+  border: 1px solid #D3DFE4;
+  border-radius: 6px;
+  height: 200px;
+  max-width: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  clear: both;
+  position: relative;
+}
+
+.feature-rating {
+  background-color: #00B1FF;
+  border-radius: 4px;
+  color: white;
+  width: 53px;
+  height: 26px;
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.card-img {
+  max-width: 200px;
+  float: left;
+  margin-right: 15px;
+  max-height: 198px;
+}
+
+.card-left {
+  max-height: 198px;
+  background-size: auto;
+  margin: 0 auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.episode-number {
+  padding-bottom: 20px;
+}
