@@ -15,12 +15,54 @@ input[type="text"]:focus {
   outline: none;
 }
 
+.glyphicon {
+  font-size: 20px;
+  margin: 8px 6px 8px 8px;
+  position: relative;
+  top: 5px;
+  color: #E5EDF1;
+}
+
 .section-header {
   margin-bottom: 40px;
 }
 
 .episode-blurb-small {
 
+}
+
+.episode-head-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.episode-number-header {
+  margin-bottom: 50px;
+  color: darkgray;
+  font-size: 16px;
+}
+
+.episode-head {
+}
+
+.episode-head-container {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+}
+
+.episode-content {
+  height: 430px;
+}
+
+.episode-img-container {
+  height: 430px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+}
+
+.episode-img {
+  max-width: 430px;
 }
 
 .navbar-nav > li > a {
@@ -43,6 +85,9 @@ input[type="text"]:focus {
 
 .col-footer {
   padding: 0 25px;
+}
+.col-footer-logo {
+  padding: 0 15px;
 }
 
 .title-container {
@@ -144,4 +189,81 @@ input[type="text"]:focus {
 .col-footer ul {
   list-style: none;
   padding-left: 0;
+}
+
+.episode-detail-rating {
+  background-color: #00B1FF;
+  border-radius: 4px;
+  color: white;
+  width: 53px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  display: inline-block;
+}
+.episode-date {
+  display: inline-block;
+}
+
+.episode-name {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.episode-guest {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+// EPISODE RATINGS
+
+.user-img {
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+
+.rating-user-details {
+  position: relative;
+  width: 448px;
+  height: 80px;
+  overflow: hidden;
+  bottom: -10px;
+  padding-left: 100px;
+  padding-top: 8px;
+}
+
+.rating-card {
+  border: 1px solid #D3DFE4;
+  border-radius: 6px;
+  padding-top: 10px;
+  min-height: 200px;
+  max-width: 450px;
+  margin: 0 auto;
+  clear: both;
+  position: relative;
+}
+
+.rating-card-content {
+  padding: 10px 16px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.thumbs {
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+}
+
+.glyphicon.glyphicon-thumbs-up {
+    font-size: 35px;
+    color:  #00B1FF;
+}
+
+.glyphicon.glyphicon-thumbs-down {
+    font-size: 35px;
+    color:  #E57878;
 }
