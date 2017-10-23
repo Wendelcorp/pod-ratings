@@ -5,16 +5,42 @@ h2 {
   font-weight: 200;
 }
 
+input[type="text"] {
+  border: 1px solid #D3DFE4;
+  border-radius: 3px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
 .section-header {
   margin-bottom: 40px;
 }
 
+.episode-blurb-small {
+
+}
+
+
+
 .navbar-default {
-    background-color: white;
-    border-color: white;
-    max-width: 1000px;
-    margin: 20px auto 60px;
-    padding: 20px;
+  background-color: white;
+  border-color: white;
+  max-width: 1000px;
+  margin: 20px auto 60px;
+  padding: 20px;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 20px auto 60px;
+  padding: 20px;
+}
+
+.col-footer {
+  padding: 20px;
 }
 
 .title-container {
@@ -30,10 +56,21 @@ h2 {
 .title-card {
   border: 1px solid #D3DFE4;
   border-radius: 6px;
-  min-height: 250px;
+  height: 300px;
   max-width: 200px;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
+}
+
+.title-card-content {
+  padding: 10px 10px 10px 10px;
+  height: 68px;
+  overflow: hidden;
+}
+
+.title-card-image {
+  margin: 0 auto;
 }
 
 .feature-container {
@@ -74,8 +111,12 @@ h2 {
 .card-img {
   max-width: 200px;
   float: left;
-  margin-right: 15px;
   max-height: 198px;
+}
+
+.title-card-img {
+  max-width: 200px;
+  margin-bottom: 10px;
 }
 
 .card-left {
@@ -86,8 +127,19 @@ h2 {
 
 .card-content {
   padding: 15px;
+  overflow: hidden;
 }
 
 .episode-number {
   padding-bottom: 20px;
+}
+
+.col-footer li {
+  padding: 0;
+  margin: 6px 0;
+}
+
+.col-footer ul {
+  list-style: none;
+  padding-left: 0;
 }
