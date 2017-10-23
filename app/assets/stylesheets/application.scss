@@ -10,6 +10,7 @@ input[type="text"] {
   border-radius: 3px;
   margin-top: 6px;
   margin-bottom: 6px;
+  padding: 6px;
 }
 input[type="text"]:focus {
   outline: none;
@@ -220,19 +221,12 @@ input[type="text"]:focus {
 .user-img {
   width: 70px;
   border-radius: 50%;
-  position: absolute;
-  bottom: 5px;
-  left: 10px;
 }
 
 .rating-user-details {
-  position: relative;
   width: 448px;
-  height: 80px;
   overflow: hidden;
-  bottom: -10px;
-  padding-left: 100px;
-  padding-top: 8px;
+  padding: 20px 15px 20px 0;
 }
 
 .rating-card {
