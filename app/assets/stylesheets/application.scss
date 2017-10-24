@@ -335,7 +335,16 @@ input[type="text"]:focus {
 
 @media(max-width:767px){}
 @media(max-width:991px){
-  .title-width-sm {
+  // .title-width-sm {
+  //   max-width: 510px;
+  //   margin: 0 auto;
+  //   padding: 20px;
+  // }
+  .feature-card {
+    padding: 0px;
+  }
+  .title-container {
+    padding: 20px;
     max-width: 510px;
     margin: 0 auto;
   }
