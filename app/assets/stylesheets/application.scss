@@ -330,3 +330,15 @@ input[type="text"]:focus {
   height: 450px;
   border: 1px solid #D3DFE4;
 }
+
+/* Small devices (tablets, 768px and up) */
+
+@media(max-width:767px){}
+@media(max-width:991px){
+  .title-width-sm {
+    max-width: 510px;
+    margin: 0 auto;
+  }
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
